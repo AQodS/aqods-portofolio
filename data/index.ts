@@ -84,7 +84,7 @@ export const projects = [
     des: "Creative Digital Agency for Digital Business Services",
     img: "/project2.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
-    link: "digiagency.vercel.app",
+    link: "https://digiagency.vercel.app",
   },
   {
     id: 3,
@@ -92,7 +92,7 @@ export const projects = [
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/project3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/digiagency.vercel.app",
+    link: "https://aqods-course.vercel.app",
   },
   {
     id: 4,
@@ -100,7 +100,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/project4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/algifan.vercel.app",
+    link: "https://algifan.vercel.app",
   },
 ];
 
