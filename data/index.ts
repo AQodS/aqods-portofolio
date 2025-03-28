@@ -5,13 +5,37 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+export const listStack = {
+    left: [
+      { name: "ReactJS", icon: "/re.svg" },
+      { name: "NextJS", icon: "/next.svg" },
+      { name: "TypeScript", icon: "/ts.svg" },
+    ],
+    right: [
+      { name: "ExpressJS", icon: "/express.svg" },
+      { name: "VueJS", icon: "/vue.svg" },
+      { name: "Tailwind", icon: "/tail.svg" },
+    ],
+  };
+
+export const leftLists = [
+  { name: "ReactJS", icon: "/re.svg" },
+  { name: "NextJS", icon: "/next.svg" },
+  { name: "TypeScript", icon: "/ts.svg" },
+];
+export const rightLists = [
+  { name: "ExpressJS", icon: "/express.svg" },
+  { name: "VueJS", icon: "/vue.svg" },
+  { name: "Tailwind", icon: "/tail.svg" },
+];
+
 export const gridItems = [
   {
     id: 1,
-    title: "I am a Physics graduate from Institut Teknologi Bandung, specializing in Computational Photonic Physics. I'm passionate creating friendly user interfaces and efficient user experiences. I specialize in building responsive and visually appealing websites that provide a seamless user experience. I'm always learning to enhance my skills in both frontend and backend technologies.",
+    title: "I am a Physics graduate from Institut Teknologi Bandung, specializing in Computational Photonic Physics. I'm passionate creating friendly user interfaces and efficient user experiences. I specialize in building responsive and visually appealing websites that provide a seamless user experience. I'm always learning to improve my skills in both frontend and backend technologies.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] bg-red-400",
-    imgClassName: "w-full h-full opacity-50",
+    imgClassName: "w-full h-full opacity-30",
     titleClassName: "justify-end text-justify",
     img: "/b1.svg",
     spareImg: "",
@@ -73,9 +97,9 @@ export const projects = [
   {
     id: 1,
     title: "Acara - Manage your Events",
-    des: "A Platform to create and manage all of your Events",
+    des: "A Platform to create and manage all of your Events. Fullstack project with MERN stack",
     img: "/project1.png",
-    iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg"],
+    iconLists: ["/mongo.svg", "/express.svg", "/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://front-end-acara-beta.vercel.app/",
   },
   {
@@ -88,116 +112,19 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "AQodS Course - Learning Application",
+    des: "Platform for learning new skills in infomation technology.",
     img: "/project3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/js.svg", "/bootstrap.svg", "/fm.svg"],
     link: "https://aqods-course.vercel.app",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Wedding Invitation Website",
+    des: "Algi & Fani Wedding Invitation Website to asking the recepient for attend a wedding.",
     img: "/project4.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/html.svg", "/css.svg", "/js.svg", "bootstrap.svg"],
     link: "https://algifan.vercel.app",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
-
-export const workExperience = [
-  {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 

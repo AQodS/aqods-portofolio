@@ -62,7 +62,7 @@ const RecentProjects = () => {
                         <Image
                           src={icon}
                           alt="icon5"
-                          className="p-2"
+                          className="p-2 rounded-xl"
                           width={50}
                           height={50}
                         />

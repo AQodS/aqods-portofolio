@@ -1,13 +1,11 @@
 "use client";
 import { ReactNode, useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
-// import Lottie from "react-lottie";
 import cn from "@/utils";
-// import GridGlobe from "./GridGlobe";
-import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
 import Image from "next/image";
 import { BackgroundGradientAnimation } from "./BackgroundGradientAnimation";
+import { listStack } from "@/data";
 
 interface PropTypes {
   className?: string;
@@ -62,15 +60,6 @@ export const BentoGridItem = (props: GridPropTypes) => {
   ];
 
   const [copied, setCopied] = useState(false);
-
-  const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
 
   const handleCopy = () => {
     const text = "qoddri@gmail.com";
@@ -142,15 +131,12 @@ export const BentoGridItem = (props: GridPropTypes) => {
             {title}
           </div>
 
-          {/* for the github 3d globe */}
-          {/* {id === 2 && <GridGlobe />} */}
-
           {/* Tech stack list div */}
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute right-8 lg:right-2 top-0 min-[1024px]:top-6 min-[1182px]:top-0">
               {/* tech stack lists */}
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                {leftLists.map((item, i) => (
+                {listStack.left.map((item, i) => (
                   <span
                     key={i}
                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
@@ -169,7 +155,7 @@ export const BentoGridItem = (props: GridPropTypes) => {
               </div>
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-                {rightLists.map((item, i) => (
+                {listStack.right.map((item, i) => (
                   <span
                     key={i}
                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
@@ -195,11 +181,11 @@ export const BentoGridItem = (props: GridPropTypes) => {
               {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
               {/* add handleCopy() for the copy the text */}
               <div
-                className={`absolute -bottom-5 right-0 ${
-                  copied ? "block" : "block"
+                className={`absolute left-28 z-50 ${
+                  copied ? "block" : "hidden"
                 }`}
               >
-                {/* <Image src="/confetti.gif" alt="confetti" height={100} width={100}  /> */}
+                <Image src="/confetti.gif" alt="confetti" height={150} width={150} unoptimized />
                 {/* <Lottie options={defaultOptions} height={200} width={400} /> */}
               </div>
 
