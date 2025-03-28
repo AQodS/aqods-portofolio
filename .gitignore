@@ -34,3 +34,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# # deprecated
+# Grid.tsx
+# BentoGrid.tsx
+# BackgroundGradientAnimation.tsx
+# GridGlobe.tsx
+# Globe.tsx
