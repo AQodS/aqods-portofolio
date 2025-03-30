@@ -18,23 +18,12 @@ export const listStack = {
     ],
   };
 
-export const leftLists = [
-  { name: "ReactJS", icon: "/re.svg" },
-  { name: "NextJS", icon: "/next.svg" },
-  { name: "TypeScript", icon: "/ts.svg" },
-];
-export const rightLists = [
-  { name: "ExpressJS", icon: "/express.svg" },
-  { name: "VueJS", icon: "/vue.svg" },
-  { name: "Tailwind", icon: "/tail.svg" },
-];
-
 export const gridItems = [
   {
     id: 1,
-    title: "I am a Physics graduate from Institut Teknologi Bandung, specializing in Computational Photonic Physics. I'm passionate creating friendly user interfaces and efficient user experiences. I specialize in building responsive and visually appealing websites that provide a seamless user experience. I'm always learning to improve my skills in both frontend and backend technologies.",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] bg-red-400",
+    title: "",
+    description: "I am a Physics graduate from Institut Teknologi Bandung, specializing in Computational Photonic Physics. I'm passionate creating friendly user interfaces and efficient user experiences. I specialize in building responsive and visually appealing websites that provide a seamless user experience. I'm always learning to improve my skills in both frontend and backend technologies.",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full opacity-30",
     titleClassName: "justify-end text-justify",
     img: "/b1.svg",
