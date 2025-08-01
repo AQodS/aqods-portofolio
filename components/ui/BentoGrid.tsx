@@ -55,8 +55,8 @@ export const BentoGridItem = (props: GridPropTypes) => {
   ];
   const rightLists = [
     { name: "ExpressJS", icon: "/express.svg" },
-    { name: "VueJS", icon: "/vue.svg" },
     { name: "Tailwind", icon: "/tail.svg" },
+    { name: "VueJS", icon: "/vue.svg" },
   ];
 
   const [copied, setCopied] = useState(false);
@@ -135,7 +135,7 @@ export const BentoGridItem = (props: GridPropTypes) => {
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute right-8 lg:right-2 top-0 min-[1024px]:top-6 min-[1182px]:top-0">
               {/* tech stack lists */}
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8 align-items-center min-[1440px]:mt-12 2xl:mt-16 2xl:pt-2">
                 {listStack.left.map((item, i) => (
                   <span
                     key={i}
@@ -153,7 +153,7 @@ export const BentoGridItem = (props: GridPropTypes) => {
                 ))}
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
               </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8 2xl:pt-2">
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
                 {listStack.right.map((item, i) => (
                   <span
@@ -185,7 +185,13 @@ export const BentoGridItem = (props: GridPropTypes) => {
                   copied ? "block" : "hidden"
                 }`}
               >
-                <Image src="/confetti.gif" alt="confetti" height={150} width={150} unoptimized />
+                <Image
+                  src="/confetti.gif"
+                  alt="confetti"
+                  height={150}
+                  width={150}
+                  unoptimized
+                />
                 {/* <Lottie options={defaultOptions} height={200} width={400} /> */}
               </div>
 

@@ -37,7 +37,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Qoddri, a Frontend Web Developer.
+            Hi! I&apos;m Qoddri, a Web Developer.
           </p>
 
           <div className="flex flex-col md:flex-row gap-6 my-2">
