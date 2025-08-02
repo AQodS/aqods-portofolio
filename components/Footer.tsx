@@ -34,7 +34,7 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
+      <div className="flex flex-col-reverse gap-5 mt-16 md:flex-row justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light flex items-center justify-center gap-2">
           <Image src="/aqods-logo.png" alt="logo" width={35} height={35} />
           &copy; Copyrights {new Date().getFullYear()} AQodS

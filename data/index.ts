@@ -6,23 +6,24 @@ export const navItems = [
 ];
 
 export const listStack = {
-    left: [
-      { name: "ReactJS", icon: "/re.svg" },
-      { name: "NextJS", icon: "/next.svg" },
-      { name: "TypeScript", icon: "/ts.svg" },
-    ],
-    right: [
-      { name: "ExpressJS", icon: "/express.svg" },
-      { name: "Tailwind", icon: "/tail.svg" },
-      { name: "VueJS", icon: "/vue.svg" },
-    ],
-  };
+  left: [
+    { name: "ReactJS", icon: "/re.svg" },
+    { name: "NextJS", icon: "/next.svg" },
+    { name: "TypeScript", icon: "/ts.svg" },
+  ],
+  right: [
+    { name: "ExpressJS", icon: "/express.svg" },
+    { name: "Tailwind", icon: "/tail.svg" },
+    { name: "VueJS", icon: "/vue.svg" },
+  ],
+};
 
 export const gridItems = [
   {
     id: 1,
     title: "",
-    description: "I am a Physics graduate from Institut Teknologi Bandung, specializing in Computational Photonic Physics. I'm passionate creating friendly user interfaces and efficient user experiences. I specialize in building responsive and visually appealing websites that provide a seamless user experience. I'm always learning to improve my skills in both frontend and backend technologies.",
+    description:
+      "I am a Physics major with passion in programming, specializing in Computational Photonic Physics. I love helping others understand the wonder of physics. I am proficient in math and able to apply knowledge of physics to solve complex problems. I have also studied Web Programming, Data Science, and Machine Learning. Now, I am ready for a new adventure and excited to dive into the world of Information Technology",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full opacity-30",
     titleClassName: "justify-end text-justify",
@@ -88,7 +89,13 @@ export const projects = [
     title: "Acara - Manage your Events",
     des: "A Platform to create and manage all of your Events. Fullstack project with MERN stack",
     img: "/project1.png",
-    iconLists: ["/mongo.svg", "/express.svg", "/next.svg", "/tail.svg", "/ts.svg"],
+    iconLists: [
+      "/mongo.svg",
+      "/express.svg",
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+    ],
     link: "https://front-end-acara-beta.vercel.app/",
   },
   {
@@ -125,12 +132,12 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/insta.svg",
-    href: "https://www.instagram.com/qoddri_/",
+    img: "/link.svg",
+    href: "https://www.linkedin.com/in/qoddri/",
   },
   {
     id: 3,
-    img: "/link.svg",
-    href: "https://www.linkedin.com/in/qoddri/",
+    img: "/insta.svg",
+    href: "https://www.instagram.com/qoddri_/",
   },
 ];
