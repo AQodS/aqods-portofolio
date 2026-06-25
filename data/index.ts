@@ -23,7 +23,7 @@ export const gridItems = [
     id: 1,
     title: "",
     description:
-      "I am a Physics major with passion in programming, specializing in Computational Photonic Physics. I love helping others understand the wonder of physics. I am proficient in math and able to apply knowledge of physics to solve complex problems. I have also studied Web Programming, Data Science, and Machine Learning. Now, I am ready for a new adventure and excited to dive into the world of Information Technology",
+      "I am a Software Engineer with a strong fullstack background. I have experience developing end-to-end applications, including building scalable APIs, developing a Learning Management System and Desktop App. a I have hands-on experience in both backend and frontend development, focusing on system integration, performance, and maintainable code. My background in Computational Physics from Institut Teknologi Bandung strengthens my analytical thinking and problem solving approach in complex systems. I also have experience in Data Science and Machine Learning. I am continuously improving my skills in modern web technologies and am eager to contribute to impactful software products while growing as a software engineer.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full opacity-30",
     titleClassName: "justify-end text-justify",
