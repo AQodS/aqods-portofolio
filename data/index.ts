@@ -5,18 +5,28 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
-export const listStack = {
-  left: [
-    { name: "ReactJS", icon: "/re.svg" },
-    { name: "NextJS", icon: "/next.svg" },
-    { name: "TypeScript", icon: "/ts.svg" },
-  ],
-  right: [
-    { name: "ExpressJS", icon: "/express.svg" },
-    { name: "Tailwind", icon: "/tail.svg" },
-    { name: "VueJS", icon: "/vue.svg" },
-  ],
-};
+export const listStack = [
+  { name: "TypeScript", icon: "/stack/ts.svg" },
+  { name: "JavaScript", icon: "/stack/js.svg" },
+  { name: "ReactJS", icon: "/stack/re.svg" },
+  { name: "NextJS", icon: "/stack/next.svg" },
+  { name: "ExpressJS", icon: "/stack/express.svg" },
+  { name: "AstroJS", icon: "/stack/astro.svg" },
+  { name: "NodeJS", icon: "/stack/node.svg" },
+  { name: "Go", icon: "/stack/go.svg" },
+  { name: "Python", icon: "/stack/py.svg" },
+  { name: "FastAPI", icon: "/stack/fastapi.svg" },
+  { name: "Postgres", icon: "/stack/postgres.svg" },
+  { name: "MongoDB", icon: "/stack/mongo.svg" },
+  { name: "MySQL", icon: "/stack/mysql.svg" },
+  { name: "Tailwind", icon: "/stack/tail.svg" },
+  { name: "Boostrap", icon: "/stack/boostrap.svg" },
+  { name: "Sass", icon: "/stack/sass.svg" },
+  { name: "Css", icon: "/stack/css.svg" },
+  { name: "HTML", icon: "/stack/html.svg" },
+  { name: "Git", icon: "/stack/git.svg" },
+  { name: "Docker", icon: "/stack/docker.svg" },
+];
 
 export const gridItems = [
   {
@@ -34,19 +44,9 @@ export const gridItems = [
     id: 3,
     title: "My Tech Stack",
     description: "I always improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-4",
     imgClassName: "",
-    titleClassName: "justify-start",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
+    titleClassName: "-mt-2 justify-start",
     img: "",
     spareImg: "",
   },
@@ -86,9 +86,23 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "SMAN 4 Cirebon",
+    des: "Web information for SMAN 4 Cirebon",
+    img: "/project1.png",
+    iconLists: [
+      "/mongo.svg",
+      "/express.svg",
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+    ],
+    link: "https://sman4cirebon.sch.id/",
+  },
+  {
+    id: 2,
     title: "Acara - Manage your Events",
     des: "A Platform to create and manage all of your Events. Fullstack project with MERN stack",
-    img: "/project1.png",
+    img: "/project2.png",
     iconLists: [
       "/mongo.svg",
       "/express.svg",
@@ -99,26 +113,26 @@ export const projects = [
     link: "https://front-end-acara-beta.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Digiagency - Creative Digital Agency",
     des: "Creative Digital Agency for Digital Business Services",
-    img: "/project2.png",
+    img: "/project3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
     link: "https://digiagency.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "AQodS Course - Learning Application",
     des: "Platform for learning new skills in infomation technology.",
-    img: "/project3.png",
+    img: "/project4.png",
     iconLists: ["/re.svg", "/js.svg", "/bootstrap.svg", "/fm.svg"],
     link: "https://aqods-course.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
     title: "Wedding Invitation Website",
     des: "Algi & Fani Wedding Invitation Website to asking the recepient for attend a wedding.",
-    img: "/project4.png",
+    img: "/project5.png",
     iconLists: ["/html.svg", "/css.svg", "/js.svg", "bootstrap.svg"],
     link: "https://algifan.vercel.app",
   },
