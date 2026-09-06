@@ -7,7 +7,7 @@ const Grid = () => {
       <h1 className="heading relative">
         About <span className="text-purple">Me</span>
       </h1>
-      <BentoGrid className="w-full py-20">
+      <BentoGrid className="w-[95%] 2xl:max-w-7xl py-20">
         {gridItems.map((item, i) => (
           <BentoGridItem
             id={item.id}

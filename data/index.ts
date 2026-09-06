@@ -35,7 +35,7 @@ export const gridItems = [
     title: "",
     description:
       "I am a Software Engineer with a strong fullstack background. I have experience developing end-to-end applications, including building scalable APIs, developing a Learning Management System and Desktop App. a I have hands-on experience in both backend and frontend development, focusing on system integration, performance, and maintainable code. My background in Computational Physics from Institut Teknologi Bandung strengthens my analytical thinking and problem solving approach in complex systems. I also have experience in Data Science and Machine Learning. I am continuously improving my skills in modern web technologies and am eager to contribute to impactful software products while growing as a software engineer.",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4",
     imgClassName: "w-full h-full opacity-30",
     titleClassName: "justify-end text-justify",
     img: "/b1.svg",
@@ -47,7 +47,7 @@ export const gridItems = [
     description: "I always improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-4",
     imgClassName: "",
-    titleClassName: "-mt-2 justify-start text-purple",
+    titleClassName: "md:-mt-2 justify-start text-purple -ml-2",
     img: "",
     spareImg: "",
   },
