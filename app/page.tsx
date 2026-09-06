@@ -8,7 +8,7 @@ import { navItems } from "@/data";
 export default function Home() {
   return (
     <main className="relative bg-black-100 flex flex-col justify-center items-center overflow-clip mx-auto">
-      <div className="max-w-7xl w-full">
+      <div className="max-w-[1312px] w-full">
         <Navbar navItems={navItems} />
         <Hero />
         <Grid />
